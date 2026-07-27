@@ -27,6 +27,14 @@ When **Host A** and **Host B** reside on the same IP subnet, communication happe
 
 When **Host B** resides on a different subnet, Host A cannot deliver the frame directly. It must forward the data through its **Default Gateway** (the local router).
 
+```mermaid
+graph LR
+    A[Host A] --> B(Local Network)
+    B --> C[Router / Default Gateway]
+    C --> D(External Network)
+    D --> E[Host B]
+```
+
 ### Process Breakdown
 
 1. **Subnet Check:** Host A determines Host B’s IP address belongs to a **different network**.
