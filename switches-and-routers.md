@@ -84,12 +84,11 @@ Connecting routers in a **hierarchical tree structure** (Core $\rightarrow$ Dist
 * **Equal Hop Count:** Ensures consistent bandwidth and uniform hop distances across leaf nodes.
 * **Redundancy:** Facilitates backup paths in case an upstream link fails.
 
-```text
-[ Core / Internet ]
-       |
-[ Router Level 1 ]
-  /             \
-[ Router Level 2 ]   [ Router Level 2 ]
+```mermaid
+graph TD
+    A[Core / Internet] <--> B[Router Level 1]
+    B <--> C[Router Level 2]
+    B <--> D[Router Level 2]
 ```
 
 ### Route Summarization (CIDR Aggregation)
