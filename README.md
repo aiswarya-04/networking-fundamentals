@@ -6,4 +6,5 @@ Welcome to my networking study and lab documentation repository! This space trac
 
 * [OSI Model Reference Guide](osi-model.md) — Detailed breakdown of the 7 layers, encapsulation, and protocol data units (PDUs).
 * [Network Devices & Infrastructure](./network-devices.md) — Core components, devices, and foundational network concepts.
-* ⏳ *TCP vs UDP (Coming Soon)*
+* [How Hosts Communicate](./host-communication.md) — Step-by-step ARP resolution, local switching, and default gateway routing.
+*
