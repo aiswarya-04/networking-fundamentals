@@ -8,4 +8,4 @@ Welcome to my networking study and lab documentation repository! This space trac
 * [Network Devices & Infrastructure](./network-devices.md) — Core components, devices, and foundational network concepts.
 * [How Hosts Communicate](./host-communication.md) — Step-by-step ARP resolution, local switching, and default gateway routing.
 * [Switches & Routers Deep Dive](./switches-and-routers.md) — Switching logic (Learn/Flood/Forward), VLANs, hop-by-hop packet headers, and route summarization.
-*
+* [Protocols & Transport Layer Deep Dive](./protocols.md) — Core protocols (DNS/DHCP), TCP vs. UDP myths, TCP handshake, SYN flood attacks, and critical ports.
